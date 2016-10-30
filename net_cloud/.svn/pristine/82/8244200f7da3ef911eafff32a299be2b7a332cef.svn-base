@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".main"
+    android:background="#ff4f8171">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal"
+            android:background="#ff8298bd"
+            android:autoText="false"
+            android:text="HC-05" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Search"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:background="#ff7ec67d" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="hello"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffffff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal"
+            android:background="#ff8298bd"
+            android:autoText="false"
+            android:text="cfaae" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:background="#ff7ec67d" />
+
+        <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/surfaceView"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/E:/net_car/app/src/main/res/layout/activity_main.xml -->
